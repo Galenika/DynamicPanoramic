@@ -6,7 +6,7 @@ This method bypasses the crypto checks of code.pbin by injecting into the proces
 
 Please Ensure you load the DLL as soon as possable, the module MUST hook before CSGO parses the zip file else it will not work.
 
-#Credits:
+# Credits:
 qtKite-> I had not touched csgo in a while and he pointed out a few things, such as VEH Hooking
 
 PolyHook-> Is used to apply the VEH Hooking
@@ -19,14 +19,14 @@ Probably some others that i have missed, if i have missed you feel free to leave
 
 Pattern Scanning-> I cant accually remember where I pulled this from, it was a csgo cheat source, if somebody could let me know ill update this file and my comments with the name of the owner of the code
 
-#Use:
+# Use:
 in dllmain.cpp i have an example use of the code, all you have todo is
 
 1. Create a std::vector of std::pairs with both params as std::strings, the first string in each pair is the position on the disk of the file to inject, the second is where you wish it to be placed inside the panorama zip.
 2. Inject as CSGO starts. Injecting later will cause this not to work due to hooking the parsing of panorama.
 3. Win.
 
-#Notes:
+# Notes:
 If you wish to edit panorama you may wish to check out WesserEsser's github OR dump it yourself for latest version: https://github.com/WasserEsser/panorama
 
 If you have any improvements please let me know <3
