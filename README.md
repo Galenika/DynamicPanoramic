@@ -8,10 +8,15 @@ Please Ensure you load the DLL as soon as possable, the module MUST hook before 
 
 #Credits:
 qtKite-> I had not touched csgo in a while and he pointed out a few things, such as VEH Hooking
+
 PolyHook-> Is used to apply the VEH Hooking
+
 UnknownCheats User __or_75-> His explaination of the checks valve is doing on the code.pbin (as i originally was looking at editing the code.pbin itself)
+
 UnknownCheats User Slidy-> His observation that the code.pbin is just a zip file	
+
 Probably some others that i have missed, if i have missed you feel free to leave a message saying who you are and how you may have helped.
+
 Pattern Scanning-> I cant accually remember where I pulled this from, it was a csgo cheat source, if somebody could let me know ill update this file and my comments with the name of the owner of the code
 
 #Use:
